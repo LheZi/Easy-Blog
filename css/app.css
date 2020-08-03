@@ -1,0 +1,365 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #2d374b;
+    text-decoration: none
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+p {
+    word-wrap: break-word
+}
+
+input {
+    outline: medium;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 14px;
+}
+
+#header {
+    height: 70px;
+    line-height: 70px;
+    padding: 0 36px;
+}
+
+#nav-menu {
+    float: left;
+}
+
+#logo-name {
+    font-weight: bold;
+    margin-right: 32px;
+    font-size: 20px;
+    color: #222;
+}
+
+#nav-menu a {
+    margin-right: 32px;
+    color: #222;
+}
+
+#nav-menu a:hover {
+    color: blue;
+    text-decoration: none
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-name {
+    float: left;
+}
+
+.site-search {
+    float: right;
+}
+
+.post-meta {
+    margin: 10px 0;
+}
+
+.post-meta li, .post-meta-m li , .tags{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 28px;
+}
+
+.submit {
+    cursor: pointer;
+}
+.submit-comment{
+    float: right;
+    border:1px solid #909090;
+    background: none;
+    cursor: pointer;
+    color: #909090;
+}
+.submit, .text {
+    border: 1px solid #222;
+    background: none;
+}
+.textarea {
+    transition: all 0.25s;
+    resize: none;
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid #909090;
+    border-radius: 3px;
+}
+.relpy-content{
+    position: relative;
+}
+.has-login{
+    margin: 10px 0;
+}
+article ,#comments{
+    margin: 27px 0;
+    padding: 0 27px;
+}
+
+.open {
+    display: none;
+}
+
+.site-title {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-title p {
+    margin-top: 10px;
+}
+
+#footer, #footer a {
+    text-align: center;
+    font-size: 12px;
+    color: #9195a3;
+}
+
+.footer-sidebar {
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: -250px;
+    background-color: #fff;
+    transition: all 0.5s;
+    z-index: 998;
+}
+
+.search-m-box {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    transition: all 0.5s;
+    background: #fff;
+    z-index: 997;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opc {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    opacity: 0.3;
+    display: none;
+}
+
+.post-meta-m, .search-m {
+    display: none;
+}
+
+.post-contenxt p {
+    line-height: 21px;
+    color: #616161;
+    font-size: 14px;
+}
+
+.post h1, .post .post-meta {
+    text-align: center;
+}
+
+.post-content {
+    margin: 15px 0;
+}
+
+.post-near {
+    text-align-last: justify;
+    padding: 0 27px;
+}
+
+.post-near li {
+    display: inline-block;
+}
+#comments h3{
+    margin: 15px 0;
+}
+.comment-parent{
+    margin-bottom: 27px;
+    border: 1px solid #222;
+    padding: 15px;
+}
+.comment-children{
+    margin-top: 12px;
+    border-top: 1px solid #999;
+    padding-top: 11px;
+}
+.respond h3,.respond .cancel-comment-reply{
+    display: inline-block;
+}
+.cancel-comment-reply{
+    font-size: 12px;
+}
+.comment-input{
+    display: inline-block;
+}
+.clearfix{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment-meta a{
+    color: #8f949e;
+    font-size: 14px;
+}
+.comment-reply{
+    float: right;
+}
+.comment-content{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.comment-content p{
+    display: inline-block;
+}
+.text-l{
+    text-align: left !important;
+}
+.comment-meta{
+    margin-top: 5px;
+}
+@media screen and (max-width: 720px) {
+    .open, .close {
+        display: inline-block;
+        background: none;
+        border: 1px solid #222;
+        cursor: pointer;
+    }
+
+    #header {
+        display: none;
+    }
+
+    .app {
+        padding: 15px;
+    }
+
+    .clearfix{
+        flex-wrap: wrap;
+    }
+    .comment-input{
+        margin-bottom: 5px;
+    }
+    .footer-sidebar {
+        display: block;
+        border-top: 1px solid #c3c3c3;
+        position: absolute;
+        bottom: 0;
+        width: 92%;
+        font-size: 14px;
+        padding: 10px
+    }
+
+    .footer-sidebar li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .header-sidebar {
+        padding: 15px 0 15px 37px;
+        border-bottom: 1px solid #c3c3c3;
+    }
+
+    .header-sidebar img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-right: 12px;
+    }
+
+    .search-m {
+        display: inline-block;
+        float: right;
+        background: none;
+        border: 1px solid #222;
+        cursor: pointer;
+    }
+
+    .close {
+        border: 1px solid #000;
+        margin: 15px 15px 15px 0;
+        float: right;
+    }
+
+    .widget {
+        margin: 20px 0;
+    }
+
+    .widget-list li {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    .post-meta li, .post-meta-m li , .tags{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .post-meta .comment-p, .post-meta .category-p {
+        display: none;
+    }
+
+    .post-meta-m {
+        display: block;
+        margin: 10px 0;
+        text-align: end;
+    }
+
+    article ,.post-near,#comments{
+        padding: 0;
+    }
+}

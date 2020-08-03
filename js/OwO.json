@@ -1,0 +1,987 @@
+{
+  "颜文字": {
+    "type": "emoticon",
+    "container": [
+      {
+        "icon": "OωO",
+        "text": "Author: DIYgod"
+      },
+      {
+        "icon": "|´・ω・)ノ",
+        "text": "Hi"
+      },
+      {
+        "icon": "ヾ(≧∇≦*)ゝ",
+        "text": "开心"
+      },
+      {
+        "icon": "(☆ω☆)",
+        "text": "星星眼"
+      },
+      {
+        "icon": "（╯‵□′）╯︵┴─┴",
+        "text": "掀桌"
+      },
+      {
+        "icon": "￣﹃￣",
+        "text": "流口水"
+      },
+      {
+        "icon": "(/ω＼)",
+        "text": "捂脸"
+      },
+      {
+        "icon": "∠( ᐛ 」∠)＿",
+        "text": "给跪"
+      },
+      {
+        "icon": "(๑•̀ㅁ•́ฅ)",
+        "text": "Hi"
+      },
+      {
+        "icon": "→_→",
+        "text": "斜眼"
+      },
+      {
+        "icon": "୧(๑•̀⌄•́๑)૭",
+        "text": "加油"
+      },
+      {
+        "icon": "٩(ˊᗜˋ*)و",
+        "text": "有木有WiFi"
+      },
+      {
+        "icon": "(ノ°ο°)ノ",
+        "text": "前方高能预警"
+      },
+      {
+        "icon": "(´இ皿இ｀)",
+        "text": "我从未见过如此厚颜无耻之人"
+      },
+      {
+        "icon": "⌇●﹏●⌇",
+        "text": "吓死宝宝惹"
+      },
+      {
+        "icon": "(ฅ´ω`ฅ)",
+        "text": "已阅留爪"
+      },
+      {
+        "icon": "(╯°A°)╯︵○○○",
+        "text": "去吧大师球"
+      },
+      {
+        "icon": "φ(￣∇￣o)",
+        "text": "太萌惹"
+      },
+      {
+        "icon": "ヾ(´･ ･｀｡)ノ\"",
+        "text": "咦咦咦"
+      },
+      {
+        "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+        "text": "气呼呼"
+      },
+      {
+        "icon": "(ó﹏ò｡)",
+        "text": "我受到了惊吓"
+      },
+      {
+        "icon": "Σ(っ °Д °;)っ",
+        "text": "什么鬼"
+      },
+      {
+        "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+        "text": "摸摸头"
+      },
+      {
+        "icon": "╮(╯▽╰)╭ ",
+        "text": "无奈"
+      },
+      {
+        "icon": "o(*////▽////*)q ",
+        "text": "脸红"
+      },
+      {
+        "icon": "＞﹏＜",
+        "text": ""
+      },
+      {
+        "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
+        "text": ""
+      },
+      {
+        "icon": "(｡•ˇ‸ˇ•｡)",
+        "text": ""
+      }
+    ]
+  },
+  "Emoji": {
+    "type": "emoji",
+    "container": [
+      {
+        "icon": "😂",
+        "text": ""
+      },
+      {
+        "icon": "😀",
+        "text": ""
+      },
+      {
+        "icon": "😅",
+        "text": ""
+      },
+      {
+        "icon": "😊",
+        "text": ""
+      },
+      {
+        "icon": "🙂",
+        "text": ""
+      },
+      {
+        "icon": "🙃",
+        "text": ""
+      },
+      {
+        "icon": "😌",
+        "text": ""
+      },
+      {
+        "icon": "😍",
+        "text": ""
+      },
+      {
+        "icon": "😘 ",
+        "text": ""
+      },
+      {
+        "icon": "😜",
+        "text": ""
+      },
+      {
+        "icon": "😝",
+        "text": ""
+      },
+      {
+        "icon": "😏",
+        "text": ""
+      },
+      {
+        "icon": "😒",
+        "text": ""
+      },
+      {
+        "icon": "🙄",
+        "text": ""
+      },
+      {
+        "icon": "😳 ",
+        "text": ""
+      },
+      {
+        "icon": "😡",
+        "text": ""
+      },
+      {
+        "icon": "😔",
+        "text": ""
+      },
+      {
+        "icon": "😫",
+        "text": ""
+      },
+      {
+        "icon": "😱",
+        "text": ""
+      },
+      {
+        "icon": "😭",
+        "text": ""
+      },
+      {
+        "icon": "💩",
+        "text": ""
+      },
+      {
+        "icon": "👻",
+        "text": ""
+      },
+      {
+        "icon": "🙌",
+        "text": ""
+      },
+      {
+        "icon": "🖕",
+        "text": ""
+      },
+      {
+        "icon": "👍",
+        "text": ""
+      },
+      {
+        "icon": "👫",
+        "text": ""
+      },
+      {
+        "icon": "👬",
+        "text": ""
+      },
+      {
+        "icon": "👭",
+        "text": ""
+      },
+      {
+        "icon": "🌚",
+        "text": ""
+      },
+      {
+        "icon": "🌝",
+        "text": ""
+      },
+      {
+        "icon": "🙈",
+        "text": ""
+      },
+      {
+        "icon": "💊",
+        "text": ""
+      },
+      {
+        "icon": "😶",
+        "text": ""
+      },
+      {
+        "icon": "🙏",
+        "text": ""
+      },
+      {
+        "icon": "🍦",
+        "text": ""
+      },
+      {
+        "icon": "🍉",
+        "text": ""
+      },
+      {
+        "icon": "😣",
+        "text": ""
+      }
+    ]
+  },
+  "贴吧表情": {
+    "type": "image",
+    "container": [
+      {
+        "data": "::t(1)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/1.jpg\">",
+        "text": "face1"
+      },
+      {
+        "data": "::t(2)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/2.jpg\">",
+        "text": "face2"
+      },
+      {
+        "data": "::t(3)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/3.jpg\">",
+        "text": "face3"
+      },
+      {
+        "data": "::t(4)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/4.jpg\">",
+        "text": "face4"
+      },
+      {
+        "data": "::t(5)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/5.jpg\">",
+        "text": "face5"
+      },
+      {
+        "data": "::t(6)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/6.jpg\">",
+        "text": "face6"
+      },
+      {
+        "data": "::t(7)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/7.jpg\">",
+        "text": "face7"
+      },
+      {
+        "data": "::t(8)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/8.jpg\">",
+        "text": "face8"
+      },
+      {
+        "data": "::t(9)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/9.jpg\">",
+        "text": "face9"
+      },
+      {
+        "data": "::t(10)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/10.jpg\">",
+        "text": "face10"
+      },
+      {
+        "data": "::t(11)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/11.jpg\">",
+        "text": "face11"
+      },
+      {
+        "data": "::t(12)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/12.jpg\">",
+        "text": "face12"
+      },
+      {
+        "data": "::t(13)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/13.jpg\">",
+        "text": "face13"
+      },
+      {
+        "data": "::t(14)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/14.jpg\">",
+        "text": "face14"
+      },
+      {
+        "data": "::t(15)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/15.jpg\">",
+        "text": "face15"
+      },
+      {
+        "data": "::t(16)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/16.jpg\">",
+        "text": "face16"
+      },
+      {
+        "data": "::t(17)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/17.jpg\">",
+        "text": "face17"
+      },
+      {
+        "data": "::t(18)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/18.jpg\">",
+        "text": "face18"
+      },
+      {
+        "data": "::t(19)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/19.jpg\">",
+        "text": "face19"
+      },
+      {
+        "data": "::t(20)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/20.jpg\">",
+        "text": "face20"
+      },
+      {
+        "data": "::t(21)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/21.jpg\">",
+        "text": "face21"
+      },
+      {
+        "data": "::t(22)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/22.jpg\">",
+        "text": "face22"
+      },
+      {
+        "data": "::t(23)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/23.jpg\">",
+        "text": "face23"
+      },
+      {
+        "data": "::t(24)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/24.jpg\">",
+        "text": "face24"
+      },
+      {
+        "data": "::t(25)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/25.jpg\">",
+        "text": "face25"
+      },
+      {
+        "data": "::t(26)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/26.jpg\">",
+        "text": "face26"
+      },
+      {
+        "data": "::t(27)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/27.jpg\">",
+        "text": "face27"
+      },
+      {
+        "data": "::t(28)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/28.jpg\">",
+        "text": "face28"
+      },
+      {
+        "data": "::t(29)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/29.jpg\">",
+        "text": "face29"
+      },
+      {
+        "data": "::t(30)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/30.jpg\">",
+        "text": "face30"
+      },
+      {
+        "data": "::t(31)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/31.jpg\">",
+        "text": "face31"
+      },
+      {
+        "data": "::t(32)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/32.jpg\">",
+        "text": "face32"
+      },
+      {
+        "data": "::t(33)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/33.jpg\">",
+        "text": "face33"
+      },
+      {
+        "data": "::t(34)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/34.jpg\">",
+        "text": "face34"
+      },
+      {
+        "data": "::t(35)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/35.jpg\">",
+        "text": "face35"
+      },
+      {
+        "data": "::t(36)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/36.jpg\">",
+        "text": "face36"
+      },
+      {
+        "data": "::t(37)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/37.jpg\">",
+        "text": "face37"
+      },
+      {
+        "data": "::t(38)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/38.jpg\">",
+        "text": "face38"
+      },
+      {
+        "data": "::t(39)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/39.jpg\">",
+        "text": "face39"
+      },
+      {
+        "data": "::t(40)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/40.jpg\">",
+        "text": "face40"
+      },
+      {
+        "data": "::t(41)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/41.jpg\">",
+        "text": "face41"
+      },
+      {
+        "data": "::t(42)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/42.jpg\">",
+        "text": "face42"
+      },
+      {
+        "data": "::t(43)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/43.jpg\">",
+        "text": "face43"
+      },
+      {
+        "data": "::t(44)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/44.jpg\">",
+        "text": "face44"
+      },
+      {
+        "data": "::t(45)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/45.jpg\">",
+        "text": "face45"
+      },
+      {
+        "data": "::t(46)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/46.jpg\">",
+        "text": "face46"
+      },
+      {
+        "data": "::t(47)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/47.jpg\">",
+        "text": "face47"
+      },
+      {
+        "data": "::t(48)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/48.jpg\">",
+        "text": "face48"
+      },
+      {
+        "data": "::t(49)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/49.jpg\">",
+        "text": "face49"
+      },
+      {
+        "data": "::t(50)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/tieba/50.jpg\">",
+        "text": "face50"
+      }
+    ]
+  },
+  "QQ表情": {
+    "type": "image",
+    "container": [
+      {
+        "data": "::q(1)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/1.gif\">",
+        "text": "qq1"
+      },
+      {
+        "data": "::q(2)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/2.gif\">",
+        "text": "qq2"
+      },
+      {
+        "data": "::q(3)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/3.gif\">",
+        "text": "qq3"
+      },
+      {
+        "data": "::q(4)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/4.gif\">",
+        "text": "qq4"
+      },
+      {
+        "data": "::q(5)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/5.gif\">",
+        "text": "qq5"
+      },
+      {
+        "data": "::q(6)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/6.gif\">",
+        "text": "qq6"
+      },
+      {
+        "data": "::q(7)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/7.gif\">",
+        "text": "qq7"
+      },
+      {
+        "data": "::q(8)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/8.gif\">",
+        "text": "qq8"
+      },
+      {
+        "data": "::q(9)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/9.gif\">",
+        "text": "qq9"
+      },
+      {
+        "data": "::q(10)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/10.gif\">",
+        "text": "qq10"
+      },
+      {
+        "data": "::q(11)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/11.gif\">",
+        "text": "qq11"
+      },
+      {
+        "data": "::q(12)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/12.gif\">",
+        "text": "qq12"
+      },
+      {
+        "data": "::q(13)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/13.gif\">",
+        "text": "qq13"
+      },
+      {
+        "data": "::q(14)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/14.gif\">",
+        "text": "qq14"
+      },
+      {
+        "data": "::q(15)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/15.gif\">",
+        "text": "qq15"
+      },
+      {
+        "data": "::q(16)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/16.gif\">",
+        "text": "qq16"
+      },
+      {
+        "data": "::q(17)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/17.gif\">",
+        "text": "qq17"
+      },
+      {
+        "data": "::q(18)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/18.gif\">",
+        "text": "qq18"
+      },
+      {
+        "data": "::q(19)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/19.gif\">",
+        "text": "qq19"
+      },
+      {
+        "data": "::q(20)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/20.gif\">",
+        "text": "qq20"
+      },
+      {
+        "data": "::q(21)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/21.gif\">",
+        "text": "qq21"
+      },
+      {
+        "data": "::q(22)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/22.gif\">",
+        "text": "qq22"
+      },
+      {
+        "data": "::q(23)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/23.gif\">",
+        "text": "qq23"
+      },
+      {
+        "data": "::q(24)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/24.gif\">",
+        "text": "qq24"
+      },
+      {
+        "data": "::q(25)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/25.gif\">",
+        "text": "qq25"
+      },
+      {
+        "data": "::q(26)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/26.gif\">",
+        "text": "qq26"
+      },
+      {
+        "data": "::q(27)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/27.gif\">",
+        "text": "qq27"
+      },
+      {
+        "data": "::q(28)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/28.gif\">",
+        "text": "qq28"
+      },
+      {
+        "data": "::q(29)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/29.gif\">",
+        "text": "qq29"
+      },
+      {
+        "data": "::q(30)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/30.gif\">",
+        "text": "qq30"
+      },
+      {
+        "data": "::q(31)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/31.gif\">",
+        "text": "qq31"
+      },
+      {
+        "data": "::q(32)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/32.gif\">",
+        "text": "qq32"
+      },
+      {
+        "data": "::q(33)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/33.gif\">",
+        "text": "qq33"
+      },
+      {
+        "data": "::q(34)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/34.gif\">",
+        "text": "qq34"
+      },
+      {
+        "data": "::q(35)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/35.gif\">",
+        "text": "qq35"
+      },
+      {
+        "data": "::q(36)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/36.gif\">",
+        "text": "qq36"
+      },
+      {
+        "data": "::q(37)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/37.gif\">",
+        "text": "qq37"
+      },
+      {
+        "data": "::q(38)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/38.gif\">",
+        "text": "qq38"
+      },
+      {
+        "data": "::q(39)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/39.gif\">",
+        "text": "qq39"
+      },
+      {
+        "data": "::q(40)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/40.gif\">",
+        "text": "qq40"
+      },
+      {
+        "data": "::q(41)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/41.gif\">",
+        "text": "qq41"
+      },
+      {
+        "data": "::q(42)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/42.gif\">",
+        "text": "qq42"
+      },
+      {
+        "data": "::q(43)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/43.gif\">",
+        "text": "qq43"
+      },
+      {
+        "data": "::q(44)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/44.gif\">",
+        "text": "qq44"
+      },
+      {
+        "data": "::q(45)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/45.gif\">",
+        "text": "qq45"
+      },
+      {
+        "data": "::q(46)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/46.gif\">",
+        "text": "qq46"
+      },
+      {
+        "data": "::q(47)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/47.gif\">",
+        "text": "qq47"
+      },
+      {
+        "data": "::q(48)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/48.gif\">",
+        "text": "qq48"
+      },
+      {
+        "data": "::q(49)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/49.gif\">",
+        "text": "qq49"
+      },
+      {
+        "data": "::q(50)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/50.gif\">",
+        "text": "qq50"
+      },
+      {
+        "data": "::q(51)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/51.gif\">",
+        "text": "qq51"
+      },
+      {
+        "data": "::q(52)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/52.gif\">",
+        "text": "qq52"
+      },
+      {
+        "data": "::q(53)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/53.gif\">",
+        "text": "qq53"
+      },
+      {
+        "data": "::q(54)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/54.gif\">",
+        "text": "qq54"
+      },
+      {
+        "data": "::q(55)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/55.gif\">",
+        "text": "qq55"
+      },
+      {
+        "data": "::q(56)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/56.gif\">",
+        "text": "qq56"
+      },
+      {
+        "data": "::q(57)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/57.gif\">",
+        "text": "qq57"
+      },
+      {
+        "data": "::q(58)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/58.gif\">",
+        "text": "qq58"
+      },
+      {
+        "data": "::q(59)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/59.gif\">",
+        "text": "qq59"
+      },
+      {
+        "data": "::q(60)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/60.gif\">",
+        "text": "qq60"
+      },
+      {
+        "data": "::q(61)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/61.gif\">",
+        "text": "qq61"
+      },
+      {
+        "data": "::q(62)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/62.gif\">",
+        "text": "qq62"
+      },
+      {
+        "data": "::q(63)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/63.gif\">",
+        "text": "qq63"
+      },
+      {
+        "data": "::q(64)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/64.gif\">",
+        "text": "qq64"
+      },
+      {
+        "data": "::q(65)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/65.gif\">",
+        "text": "qq65"
+      },
+      {
+        "data": "::q(66)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/66.gif\">",
+        "text": "qq66"
+      },
+      {
+        "data": "::q(67)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/67.gif\">",
+        "text": "qq67"
+      },
+      {
+        "data": "::q(68)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/68.gif\">",
+        "text": "qq68"
+      },
+      {
+        "data": "::q(69)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/69.gif\">",
+        "text": "qq69"
+      },
+      {
+        "data": "::q(70)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/70.gif\">",
+        "text": "qq70"
+      },
+      {
+        "data": "::q(71)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/71.gif\">",
+        "text": "qq71"
+      },
+      {
+        "data": "::q(72)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/72.gif\">",
+        "text": "qq72"
+      },
+      {
+        "data": "::q(73)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/73.gif\">",
+        "text": "qq73"
+      },
+      {
+        "data": "::q(74)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/74.gif\">",
+        "text": "qq74"
+      },
+      {
+        "data": "::q(75)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/75.gif\">",
+        "text": "qq75"
+      },
+      {
+        "data": "::q(76)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/76.gif\">",
+        "text": "qq76"
+      },
+      {
+        "data": "::q(77)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/77.gif\">",
+        "text": "qq77"
+      },
+      {
+        "data": "::q(78)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/78.gif\">",
+        "text": "qq78"
+      },
+      {
+        "data": "::q(79)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/79.gif\">",
+        "text": "qq79"
+      },
+      {
+        "data": "::q(80)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/80.gif\">",
+        "text": "qq80"
+      },
+      {
+        "data": "::q(81)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/81.gif\">",
+        "text": "qq81"
+      },
+      {
+        "data": "::q(82)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/82.gif\">",
+        "text": "qq82"
+      },
+      {
+        "data": "::q(83)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/83.gif\">",
+        "text": "qq83"
+      },
+      {
+        "data": "::q(84)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/84.gif\">",
+        "text": "qq84"
+      },
+      {
+        "data": "::q(85)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/85.gif\">",
+        "text": "qq85"
+      },
+      {
+        "data": "::q(86)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/86.gif\">",
+        "text": "qq86"
+      },
+      {
+        "data": "::q(87)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/87.gif\">",
+        "text": "qq87"
+      },
+      {
+        "data": "::q(88)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/88.gif\">",
+        "text": "qq88"
+      },
+      {
+        "data": "::q(89)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/89.gif\">",
+        "text": "qq89"
+      },
+      {
+        "data": "::q(90)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/90.gif\">",
+        "text": "qq90"
+      },
+      {
+        "data": "::q(91)",
+        "icon": "<img src=\"/usr/themes/EasyBlog/images/qq/91.gif\">",
+        "text": "qq91"
+      }
+    ]
+  }
+}
