@@ -33,3 +33,13 @@ $('.search-m').click(function (e) {
 $('.search-m-box').click(function (e) {
     e.stopPropagation();
 });
+
+$(window).resize(function(){
+    var h = $(this).height() - 133;
+    $('.side').height(h + 'px');
+})
+
+$('#GTP').click(function(){
+    $("html,body").animate({scrollTop: '0px'}, 500); 
+    return false;
+})

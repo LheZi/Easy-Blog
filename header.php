@@ -8,11 +8,13 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title><?php $this->archiveTitle(array('category' => _t('分类 %s 下的文章'), 'search' => _t('包含关键字 %s 的文章'), 'tag' => _t('标签 %s 下的文章'), 'author' => _t('%s 发布的文章')), '', ' - '); ?><?php $this->options->title(); ?></title>
-
+    <link rel="shortcut icon" href="<?php $this->options->themeUrl('favicon.ico'); ?>" type="image/x-icon" />
     <!-- 使用url函数转换相关路径 -->
     <link href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/app.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/OwO.min.css'); ?>" />
+     <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.2/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-dark-reasonable.min.css">
     <!--[if lt IE 9]>
     <script src="//cdnjscn.b0.upaiyun.com/libs/html5shiv/r29/html5.min.js"></script>
     <script src="//cdnjscn.b0.upaiyun.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -25,7 +27,7 @@
 <!--[if lt IE 8]>
     <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
 <![endif]-->
-<div class="app">
+<div class="app" id="app">
 <header id="header">
         <div class="site-name">
             <?php if($this->options->logoUrl): ?>
@@ -38,11 +40,11 @@
         </div>
 
         <nav id="nav-menu">
-            <a<?php if($this->is('index')): ?> class="current"<?php endif; ?>
+            <a<?php if($this->is('index')): ?> class="current-m"<?php endif; ?>
                     href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a>
             <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
             <?php while($pages->next()): ?>
-                <a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?>
+                <a<?php if($this->is('page', $pages->slug)): ?> class="current-m"<?php endif; ?>
                         href="<?php $pages->permalink(); ?>"
                         title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
             <?php endwhile; ?>

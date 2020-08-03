@@ -12,11 +12,12 @@
 <div class="sidebar">
     <button class="close"><</button>
     <div class="header-sidebar">
-        <img src="https://himg.bdimg.com/sys/portrait/item/c1fcb0ae41baabe67b" alt="">
+        <img src="<?php $this->options->avatarUrl() ?>" alt="<?php $this->options->title()?>">
         <span>Lok</span>
     </div>
-
+    <div class="side">
     <section class="widget">
+        <h3 class="widget-title"><?php _e('菜单'); ?></h3>
         <ul class="widget-list">
             <li><a<?php if($this->is('index')): ?> class="current"<?php endif; ?>
                         href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a></li>
@@ -35,16 +36,7 @@
         <?php $this->widget('Widget_Metas_Category_List')->listCategories('wrapClass=widget-list'); ?>
 	</section>
     <?php endif; ?>
-
-    <?php if (!empty($this->options->sidebarBlock) && in_array('ShowArchive', $this->options->sidebarBlock)): ?>
-    <section class="widget">
-		<h3 class="widget-title"><?php _e('归档'); ?></h3>
-        <ul class="widget-list">
-            <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=F Y')
-            ->parse('<li><a href="{permalink}">{date}</a></li>'); ?>
-        </ul>
-	</section>
-    <?php endif; ?>
+    </div>
 
     <ul class="footer-sidebar">
         <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>

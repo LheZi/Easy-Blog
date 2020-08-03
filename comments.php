@@ -27,6 +27,13 @@
             <div class="comment-author">
                 <?php $comments->gravatar('40', ''); ?>
                 <span class="fn"><?php $comments->author(); ?></span>
+                <?php
+    if ($comments->authorId) {
+        if ($comments->authorId == $comments->ownerId) {
+            echo "<span class='author'>作者</span>";
+        } 
+    }
+    ?>
             </div>
             <div class="comment-meta">
                 <a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>

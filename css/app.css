@@ -2,12 +2,35 @@ body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend,
     margin: 0;
     padding: 0
 }
-
+blockquote {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 40px;
+}
+hr{
+    color: #ded5d5;
+    border: 1px dashed;
+}
 body {
-    font-size: 1rem;
-    letter-spacing: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
 }
 
+code, kbd, samp{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif !important;
+    padding: .1em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,.05);
+    color: #f77373;
+}
+.hljs{
+    padding: 1.2em;
+}
 a {
     color: #2d374b;
     text-decoration: none
@@ -58,11 +81,28 @@ input::-webkit-input-placeholder{
     float: left;
 }
 
+
 #logo-name {
     font-weight: bold;
     margin-right: 32px;
     font-size: 20px;
     color: #222;
+}
+
+#GTP{
+    border: 1px solid #333;
+    padding: 5px;
+    position: fixed;
+    right: 36px;
+    font-size: 12px;
+    bottom: 50px;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.m-tb-12{
+    margin: 12px 0;
 }
 
 #nav-menu a {
@@ -75,23 +115,85 @@ input::-webkit-input-placeholder{
     text-decoration: none
 }
 
+.author{
+    font-size: 12px;
+    padding: 1px 3px;
+    background: #72c7f9;
+    border-radius: 5px;
+    color: #fff;
+}
 .container {
     max-width: 1200px;
+    padding: 0 36px;
     margin: 0 auto;
 }
 
 .site-name {
     float: left;
+    line-height: 66px;
+}
+#logo-img {
+    margin-right:32px;
+}
+#logo-img > img {
+    max-height: 70px;
 }
 
+.side{
+    overflow-y: auto;
+}
+.card{
+    transition: all 0.25s;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 0 20px 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.friend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card img {
+	width:40px;
+	height:40px;
+	border-radius:50%
+}
+.card div {
+	flex:1;
+	padding-left:10px
+}
+ .card div h4 {
+	font-size:15px
+}
+ .card div p {
+	max-width:300px;
+	color:#8f949e;
+	font-size: 12px;
+	margin: 0 !important;
+}
+.archives{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 7px;
+}
 .site-search {
     float: right;
 }
-
+.info li span{
+    font-size: 14px;
+}
 .post-meta {
     margin: 10px 0;
 }
 
+.tags a {
+    color: #857857;
+    font-size: 12px;
+}
 .post-meta li, .post-meta-m li , .tags{
     display: inline-block;
     font-size: 14px;
@@ -120,17 +222,26 @@ input::-webkit-input-placeholder{
     border: 1px solid #909090;
     border-radius: 3px;
 }
+.post h2 {
+    font-weight: normal;
+}
 .relpy-content{
     position: relative;
 }
 .has-login{
     margin: 10px 0;
 }
-article ,#comments{
+article,#comments{
     margin: 27px 0;
     padding: 0 27px;
 }
-
+.post{
+   padding: 15px 15px 27px 0;
+   border-bottom: 1px solid #ccc;
+}
+.post-content p a{
+    color: #6092f5;
+}
 .open {
     display: none;
 }
@@ -146,6 +257,7 @@ article ,#comments{
 
 .site-title p {
     margin-top: 10px;
+    font-size: 14px;
 }
 
 #footer, #footer a {
@@ -183,11 +295,15 @@ article ,#comments{
     align-items: center;
 }
 
+.m-0{
+    margin: 0 !important;
+}
+
 .opc {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #222;
     opacity: 0.3;
     display: none;
@@ -208,8 +324,20 @@ article ,#comments{
 }
 
 .post-content {
-    margin: 15px 0;
+    margin: 27px 0;
 }
+.post-content > p{
+    line-height: 24px;
+}
+.post-content > h2{
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+} 
+
+.post-content > h3{
+    margin-bottom: 10px;
+} 
 
 .post-near {
     text-align-last: justify;
@@ -218,6 +346,45 @@ article ,#comments{
 
 .post-near li {
     display: inline-block;
+}
+.post-content blockquote,.post-content dl,.post-content ol,.post-content p,.post-content pre,.post-content table,.post-content ul {
+	margin-bottom:16px
+}
+.post-content table {
+	overflow:auto;
+	width:100%
+}
+.post-content table th {
+	font-weight:600
+}
+.post-content table td,.post-content table th {
+    text-align: left;
+	border:1px solid #dfe2e5;
+	padding:6px 13px
+}
+.post-content table thead tr{
+    background-color:#f6f8fa;
+}
+.post-content table tr {
+	background-color:#fff;
+	border-top:1px solid #c6cbd1
+}
+.post-content blockquote {
+	border-left:0.25em solid #dfe2e5;
+	color:#6a737d;
+	padding:0 1em
+}
+.post-content blockquote >:first-child {
+	margin-top:0
+}
+.post-content blockquote >:last-child {
+	margin-bottom:0
+}
+.post-content > p > a > img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
 }
 #comments h3{
     margin: 15px 0;
@@ -271,7 +438,48 @@ article ,#comments{
 .comment-meta{
     margin-top: 5px;
 }
-@media screen and (max-width: 720px) {
+.page-navigator{
+    text-align: center;
+}
+.page-navigator li{
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #c3c3c3;
+    color: #c3c3c3;
+    padding: 5px;
+    margin-right: 15px;
+}
+.page{
+    margin: 15px 0;
+}
+.current a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.current{
+    color: #222 !important;
+    border: 1px solid #222 !important;
+}
+.current-m{
+    color: blue !important;
+}
+#footer{
+    height: 70px;
+    margin-top: 35px;
+}
+@media screen and (max-width: 920px) {
+    .container{
+        padding: 0;
+    }
+    .widget-list li {
+        margin-bottom: 10px;
+    }
+    .widget-title{
+        padding-left: 25px;
+    }
     .open, .close {
         display: inline-block;
         background: none;
@@ -279,6 +487,14 @@ article ,#comments{
         cursor: pointer;
     }
 
+    #GTP{
+        right: 15px;
+    }
+
+    .current{
+        color: blue !important;
+        border: none !important;
+    }
     #header {
         display: none;
     }
@@ -302,7 +518,9 @@ article ,#comments{
         font-size: 14px;
         padding: 10px
     }
-
+.site-title p{
+    text-align: center;    
+}
     .footer-sidebar li {
         display: inline-block;
         margin-right: 15px;
@@ -340,8 +558,14 @@ article ,#comments{
 
     .widget-list li {
         width: 100%;
-        height: 30px;
+        height: auto;
         text-align: center;
+    }
+    .category-parent{
+        margin-bottom: 10px;
+    }
+    .category-child{
+        font-size: 12px;
     }
 
     .post-meta li, .post-meta-m li , .tags{

@@ -9,7 +9,12 @@
         <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
     </ul>
     <div class="post-content" itemprop="articleBody">
-        <?php $this->content(); ?>
+                               <?php
+    $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
+    $replacement = '<a href="$1" data-fancybox="gallery" /><img src="$1" alt="'.$this->title.'" title="点击放大图片"></a>';
+    $content = preg_replace($pattern, $replacement, $this->content);
+    echo $content;
+?>
     </div>
     <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></p>
 </article>
